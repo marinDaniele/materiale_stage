@@ -1,0 +1,11 @@
+{
+	"images": [
+		"templates/tml11/img/img5.jpg",
+		"templates/tml11/img/img6.jpg",
+		"templates/tml11/img/img7.jpg",
+		"templates/tml11/img/img8.jpg"
+	],
+	"border_color": "#FFFFFF",
+	"author_url":"www.url-autore.com",
+	"author_name":"Nome Autore"
+}

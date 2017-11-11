@@ -1,0 +1,53 @@
+<link rel='ractive' href='templates/tml2/tml2.html'>
+
+<div id="tml3" style="background-color: #8a8a8a; color: #000000">
+	<span class="center"><h2>Lista contatti</h2></span>
+	<div id="content-list">
+		<ul id="tml3-list">
+		{{#each contacts: i}}
+			<li class="tml3-list-item" ><tml2></tml2></li>
+		{{/each}}
+		</ul>
+	</div>
+</div>
+
+<style>
+	#tml3{
+		font-family: Arial, Verdana, Helvetica, sans-serif;
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#content-list{
+		max-height: 20em;
+		overflow-y: auto;
+		border: 1px solid black;
+		padding: 0.5em;
+		background-color: #FFFFFF;
+	}
+	
+	#tml3-list{
+		display: block;
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+	.tml3-list-item{
+		width: 100%;
+		margin: 1em auto;
+		display: block;
+	}
+
+	.center{
+		text-align: center;
+		display: block;
+		padding: 0.5em 0;
+		background-color: #D0D0D0;
+		border-top: 1px;
+		border-left: 1px;
+		border-right: 1px;
+		border-color: black;
+		border-style: solid;
+	}
+</style>	

@@ -1,0 +1,8 @@
+{
+	"libs": [
+		"templates/tml11/lib/jquery.jcarousel.min.js"
+	],
+	"activators": [
+		"templates/tml11/lib/jcarouselLoader.js"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"text1": "Hello prima riga",
+	"text2": "Hello seconda riga",
+	"text3": "Hello terza riga",
+	"colore_text1":"#4e4e4e",
+	"colore_text2":"#4e4e4e",
+	"colore_text3":"#4e4e4e",
+	"colore_stella": "#ff0",
+	"colore_bordo_stella": "#000"
+}

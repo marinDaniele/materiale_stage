@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Editor</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="editor.css">
+</head>
+<body onload="loadList()">
+	<div id="contenitore">
+
+		<!-- lista dei template -->
+		<div id="tml-list">
+			<ul id="tml-list-ul"></ul>
+		</div>
+
+		<!-- contenitore dei template -->
+		<div id="tml-container">
+			<div id="tml-anchor"><h2 id="tml-anchor-h2"><span id="freccia">&#8592; &emsp;</span>selezionare un tamplate dalla lista</h2></div>
+		</div>
+
+		<!-- editor dei template -->
+		<div id="tml-editor"></div>
+
+	</div>
+
+	<!-- script jQuery -->
+	<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+	<!-- script Ractive.js -->
+	<script src='libs/ractive.min.js'></script>
+	<script src="libs/ractive-load.min.js"></script>
+	<script src="libs/ractive-events-tap.min.js"></script>
+	<!-- script per il color picker -->
+	<script src="libs/jscolor.js"></script>
+	<!-- miei script -->
+	<script src="editor.js"></script>
+</body>
+</html>

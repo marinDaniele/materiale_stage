@@ -1,0 +1,39 @@
+html, body{
+	font-size: 80%;
+	font-family: Helvetica;
+}
+
+#contenitore{
+	width: 100%;
+}
+.cont{
+	margin: 2em 0;
+	border: 1px solid black;
+}
+
+.tx-center{
+	text-align: center;
+}
+
+#editor, #menu{
+	display: inline-block;
+	margin: 3em 3em;
+	/*width: 50%;*/
+}
+
+#editor fieldset{
+	margin: 2em auto;
+}
+
+/*
+.templates{
+	width: 60%;
+	margin: 2em auto;
+	text-align: left;
+	background-color: #7b7b7b;
+}
+
+#template1 li{
+	padding-left: 0;
+}
+*/

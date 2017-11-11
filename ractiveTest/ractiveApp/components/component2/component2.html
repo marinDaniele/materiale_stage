@@ -1,0 +1,30 @@
+<div id="component2">
+	<h1>Componente 2</h1>
+	<ul>
+		<li>{{item1}}</li>
+		<li>{{item2}}</li>
+		<li>{{item3}}</li>
+	</ul>
+</div>
+
+<style>
+	#component2{
+		background-color: green;
+		height: 100%;
+		width: 100%;
+	}
+
+	#component2 ul{
+		list-style-type: circle;
+	}
+</style>
+
+<script >
+	component.exports = {
+		data: {
+			item1: 'Pippo',
+			item2: 'Pluto',
+			item3: 'Paperino'
+		}
+	}
+</script>

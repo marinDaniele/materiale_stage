@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang='en-GB'>
+<head>
+  <meta charset='utf-8'>
+  <title>Ractive test</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body onload="ShowFolders()">
+  <h1 id="start-page-title" >Ractive test</h1>
+  <div id="container">
+	  <div class="inline" id="strumenti">
+	  	<ul id="tmp-list"><h3>Seleziona un template</h3></ul>
+	  </div>
+	  <div class="inline" id="edit-page">
+        <div id="buttons">
+	  	    <button onclick="crea()">crea template</button>
+          <button onclick="sposta()">sposta</button>
+	  	    <button onclick="bgcolor()">bgcolor yellow</button>
+        </div>
+		    <!-- contenitore per i vari template -->
+		    <div id="template" style="background-color: #e5facf; height:300px; width:450px;"></div>
+
+	  </div>
+  </div>
+  
+  <!-- script collegati alla pagina -->
+  <script src='http://cdn.ractivejs.org/latest/ractive.min.js'></script>
+  <script src="http://cdn.jsdelivr.net/ractive.load/latest/ractive-load.min.js"></script>
+  <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  <!-- my scripts -->
+  <script src="script.js" charset="utf-8"></script>
+  <script src="template.js"></script>
+</body>
+</html>

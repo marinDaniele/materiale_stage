@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Editor Mustache</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="editorMustache.css">
+	<!-- script jQuery -->
+	<script src="libs/jquery-2.2.3.min.js"></script>
+	<!-- script Mustache.js -->
+	<script src="libs/mustache.min.js"></script>
+	<!-- script per il color picker -->
+	<script src="libs/jscolor.js"></script>
+	<!-- miei script -->
+	<script src="ScriptControllForMustache.js"></script>
+	<script src="TemplateLoaderForMustache.js"></script>
+	<script src="editorMustache.js"></script>
+
+</head>
+<body onload="createTemplateList()">
+	<div id="contenitore">
+
+		<!-- lista dei template -->
+		<div id="tml-list">
+			<ul id="tml-list-ul"></ul>
+		</div>
+
+		<!-- contenitore dei template -->
+		<div id="tml-container">
+			
+		<div id="tml-anchor" ><h2 id="tml-anchor-h2"><span id="freccia">&#8592; &emsp;</span>selezionare un tamplate dalla lista</h2></div>
+		</div>
+
+		<!-- editor dei template -->
+		<div id="tml-editor"></div>
+
+	</div>
+
+</body>
+</html>

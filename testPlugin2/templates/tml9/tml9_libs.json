@@ -1,0 +1,5 @@
+{
+	"libs": [
+		"templates/tml9/lib/clickspark.min.js"
+	]
+}

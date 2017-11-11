@@ -1,0 +1,5 @@
+{
+	"libs": [
+		"templates/tml8/lib/jquery.drawsvg.min.js"
+	]
+}

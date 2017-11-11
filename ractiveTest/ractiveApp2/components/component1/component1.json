@@ -1,0 +1,7 @@
+{
+	"title": "titolo",
+	"numInt": 5,
+	"testo": "testo",
+	"numDou": 3.4,
+	"boolean": true
+}

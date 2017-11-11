@@ -1,0 +1,7 @@
+{
+	"utenti": [
+		{"nome": "pippo", "cognome": "rossi", "eta": 27},
+		{"nome": "minnie", "cognome": "verdi", "eta": 19},
+		{"nome": "topolino", "cognome": "green", "eta": 33}
+	]
+}

@@ -1,0 +1,20 @@
+<div id="component1" style="background-color: {{bgcolor}}">
+	<h1>Componente 1</h1>
+	<p>Un po di testo<br>ancora un poco<br>{{text}}</p>
+</div>
+
+<style>
+	#component1{
+		height: 100%;
+		width: 100%;
+	}
+</style>
+
+<script>
+	component.exports = {
+		data: {
+			text:'terzo pezzo di testo.',
+			bgcolor: '#BEF66E'
+		}
+	}
+</script>

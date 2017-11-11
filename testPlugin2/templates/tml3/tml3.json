@@ -1,0 +1,12 @@
+{
+	"color1": "#84ff00",
+	"color2": "#fff715",
+	"color3": "#ff0000",
+	"text_x": 10,
+	"text_y": 50,
+	"text_color": "#1628ff",
+	"text": "Hello Ractive",
+	"text_size": 50,
+	"text_stroke_color": "#000000",
+	"text_stroke_size": 2
+}

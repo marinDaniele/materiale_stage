@@ -1,0 +1,5 @@
+{
+	"libs": [
+		"templates/jtml4/lib/jquery.drawsvg.min.js"
+	]
+}

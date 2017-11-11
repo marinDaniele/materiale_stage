@@ -1,0 +1,34 @@
+<div id="template1" style="position: absolute; background-color: {{bgcolor}}; left:{{x}}px; top:{{y}}px; ">
+	<h1>{{titolo}}</h1>
+	<ul>
+		<li>{{item1}}</li>
+		<li>{{item2}}</li>
+		<li>{{item3}}</li>
+	</ul>
+</div>
+
+<style>
+	#template1{
+		background-color: #fb7ae1;
+		width: 100%;
+		height: 100%;
+	}
+
+	#template1 h1 li {
+		color: blue;
+	}
+</style>
+
+<script>
+	component.exports = { 
+		data: {
+			titolo: 'Titolo figo template',
+			item1: 'pane',
+			item2: 'pollo',
+			item3: 'pasta',
+			bgcolor: 'red',
+			x: 0,
+			y: 0
+		}
+	}
+</script>

@@ -1,0 +1,165 @@
+<div id="tml2" style="background-color:{{bgColor}}; color:{{textColor}};">
+	<div class="img-box">
+		<img src="{{img}}">
+	</div>
+	<div class="data-box">
+		<h2 id="nome">{{nome}} {{cognome}}</h2>
+		<ul id="data-list">
+			<li><strong>phone: </strong><b> {{telefono}}</b></li>
+			<li><strong>e-mail: </strong>{{mail}}</li>
+			<li><strong>address: </strong>{{via}}, {{numCivico}}, {{provincia}}</li>
+			<li>
+				<ul id="social-ul">
+					{{#facebook}}
+					<li class="social-li">
+						<a href={{facebook}}>
+							<img class="social-svg" style="fill:{{textColor}};" src="templates/tml2/img/ico/facebook-logo.svg">
+						</a>
+					</li>
+					{{/}}
+					{{#linkedin}}
+					<li class="social-li">
+						<a href={{linkedin}}>
+							<img class="social-svg" style="fill:{{textColor}};" src="templates/tml2/img/ico/linkedin-logo-1.svg">
+						</a>
+					</li>
+					{{/}}
+					{{#googlePlus}}
+					<li class="social-li">
+						<a href={{googlePlus}}>
+							<img class="social-svg" style="fill:{{textColor}};" src="templates/tml2/img/ico/google-plus-logo2.svg">
+						</a>
+					</li>
+					{{/}}
+					{{#twitter}}
+					<li class="social-li">
+						<a href={{twitter}}>
+							<img class="social-svg" style="fill:{{textColor}};" src="templates/tml2/img/ico/twitter-logo.svg">
+						</a>
+					</li>
+					{{/}}
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<style>
+
+	#tml2{
+		font-family: Arial, Verdana, Helvetica, sans-serif;
+		position: relative;
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		background-color: #6EA7BC;
+		border: 1px solid black;
+		border-radius: 15px 15px 15px 15px;
+		-moz-border-radius: 15px 15px 15px 15px;
+		-webkit-border-radius: 15px 15px 15px 15px;
+	}
+
+	.img-box{
+		margin: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 9em;
+		height: 100%;
+		padding: 0.5em;
+		display: inline-block;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		background-color: #FFFFFF;
+		border-radius: 15px 0 0 15px;
+		-moz-border-radius: 15px 0 0 15px;
+		-webkit-border-radius: 15px 0 0 15px;
+	}
+
+	.img-box img{
+		position: relative;
+		width: 8em;
+		height: 8em;
+		border-radius: 15px 15px 15px 15px;
+		-moz-border-radius: 15px 15px 15px 15px;
+		-webkit-border-radius: 15px 15px 15px 15px;
+		border: 0px solid #000000;
+	}
+
+	.data-box{
+		display: inline-block;
+		position: relative;
+	    height: 100%;
+	    padding: 0.5em 0 0.5em 1em;
+	    box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		word-wrap: normal;
+		left: 9em;
+	}
+
+	.data-box h2{
+		text-align: center;
+		margin: 0;
+	}
+
+	#data-list, #social-ul{
+		position: relative;
+		list-style-type: none;
+		display: block;
+	}
+
+	#data-list{
+		padding-left: 0;
+		margin-bottom: 0;
+		margin-top: 0.5em;
+	}
+
+	#social-ul{
+		position: relative;
+		margin: 0;
+		padding-left: 0;
+		bottom: 0;
+		text-align: center;
+	}
+
+	.social-li{
+		display: inline-block;
+		margin: 1em 0.5em 0 0.5em;
+		width: 1.5em;
+		height: 1.5em;
+	}
+
+	.social-svg{
+		width: 1.5em;
+		height: 1.5em;
+	}
+
+	.social-li a:hover{
+		opacity: 0.5;
+	}
+
+	@media only screen and (max-width: 480px){
+		.img-box{
+			position: relative;
+			display: block;
+			height: 9em;
+			width: 100%;
+			border-radius: 15px 15px 0 0;
+			-moz-border-radius: 15px 15px 0 0;
+			-webkit-border-radius: 15px 15px 0 0;
+		}
+
+		.img-box img{
+			display: block;
+			margin: 0 auto;
+		}
+		.data-box{
+			display: block;
+			left: 0;
+		}
+	}
+</style>

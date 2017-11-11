@@ -1,0 +1,28 @@
+#container{
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid black;
+	background-color: #EBFCD2;
+}
+
+#button-box{
+	width: 90%;
+	padding: 0.5em 0;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	background-color: #D8E0EF;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*#tml-anchor1, #tml-anchor2 , #tml-anchor3{
+	width: 15em;
+	margin-left: 0.5em;
+}*/
+
+#simple-div{
+	width: 100%;
+	height: 100%;
+	background-color: #7DB9F7;
+}

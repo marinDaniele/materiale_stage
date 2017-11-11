@@ -1,0 +1,16 @@
+body{
+
+}
+
+#start-page-title{
+	text-align: center;
+}
+
+#demo{
+	background-color: #FFFFFF;
+	
+	width: 100%;
+	resize: both;
+	margin: 5em auto;
+}
+

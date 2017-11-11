@@ -1,0 +1,68 @@
+{
+	"contacts": [
+		{
+			"bgColor":"#FC4A4A",
+			"textColor": "#000000",
+			"nome": "Francesca",
+			"cognome": "Rossi",
+			"img": "templates/tml2/img/image1.jpg",
+			"telefono": "041123123",
+			"mail": "francesca.rossi@email.com",
+			"via": "Via Giovanni Cittadella",
+			"numCivico": 7,
+			"provincia": "PD",
+			"facebook": "http://www.facebook.com",
+			"googlePlus": "http://www.plus.google.com",
+			"linkedin": "http://www.linkedin.com",
+			"twitter": "http://www.twitter.com"
+		},
+		{
+			"bgColor":"#C2945D",
+			"textColor": "#000000",
+			"nome": "Francesca",
+			"cognome": "Brown",
+			"img": "templates/tml2/img/image1.jpg",
+			"telefono": "041123123",
+			"mail": "francesca.rossi@email.com",
+			"via": "Via Giovanni Cittadella",
+			"numCivico": 7,
+			"provincia": "PD",
+			"facebook": "http://www.facebook.com",
+			"googlePlus": "http://www.plus.google.com",
+			"linkedin": "http://www.linkedin.com",
+			"twitter": "http://www.twitter.com"
+		},
+		{
+			"bgColor":"#78A7DB",
+			"textColor": "#000000",
+			"nome": "Francesca",
+			"cognome": "Blue",
+			"img": "templates/tml2/img/image1.jpg",
+			"telefono": "041123123",
+			"mail": "francesca.rossi@email.com",
+			"via": "Via Giovanni Cittadella",
+			"numCivico": 7,
+			"provincia": "PD",
+			"facebook": "http://www.facebook.com",
+			"googlePlus": "http://www.plus.google.com",
+			"linkedin": "http://www.linkedin.com",
+			"twitter": "http://www.twitter.com"
+		},
+		{
+			"bgColor":"#DAFC50",
+			"textColor": "#000000",
+			"nome": "Francesca",
+			"cognome": "Green",
+			"img": "templates/tml2/img/image1.jpg",
+			"telefono": "041123123",
+			"mail": "francesca.rossi@email.com",
+			"via": "Via Giovanni Cittadella",
+			"numCivico": 7,
+			"provincia": "PD",
+			"facebook": "http://www.facebook.com",
+			"googlePlus": "http://www.plus.google.com",
+			"linkedin": "http://www.linkedin.com",
+			"twitter": "http://www.twitter.com"
+		}
+	]
+}

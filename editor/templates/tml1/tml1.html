@@ -1,0 +1,95 @@
+<div id="tml1" style="background-color: {{bgColor}}; color: {{textColor}};">
+	
+	<img class="image" src= {{ img ? img : 'templates/tml1/img/no-image.png'}}>
+	<div class="prod-data">
+		<h2 class="center">{{nome}}</h2>
+		prezzo: <strong>{{prezzoCent}} €</strong>
+		<p class={{ quantita ? 'disponibile' : 'non-disponibile'}} >Disponibilità: {{#if quantita}}
+										<strong>disponibili {{quantita}}</strong>
+									{{else}}
+										<strong>Non disponibile</strong>
+									{{/if}}
+		</p>
+		<h3>Descrizione:</h3>
+		<p class="desc">{{descrizione}}</p>
+	</div>
+</div>
+
+<!-- stili -->
+<style>
+	#tml1{
+		font-family: Arial, Verdana, Helvetica, sans-serif;
+		border: 1px solid black;
+		overflow: auto;
+		/*max-width: 50em;*/
+		/*background-color: #ECECEC;*/
+	}
+
+	.image{
+		float: left;
+		display: block;
+		margin: 1em;
+		width: 45%;
+		height: auto;
+	
+	}
+
+	.prod-data{
+		width: 45%;
+		display: block;
+		margin: 0 0 0 1em;
+		padding: 0;
+		display: block;
+		float: left;	
+	}
+
+	.prod-data p h2 h3 {
+		display: block;
+		overflow: auto;
+		width: 100%;
+	}
+
+	p.desc{
+		max-width: 100%;
+	}
+	
+	.center{
+		text-align: center;
+	}
+
+	p.disponibile strong{
+		color: #43B80A;
+	}
+
+	p.non-disponibile strong{
+		color: #F81212;
+	}
+
+	@media only screen and (min-width: 320px) and (max-width: 639px){
+		
+		.image{
+			width: 90%;
+			max-width: 20em;
+			float: none;
+			margin: 1em auto;
+		}
+		
+		.prod-data{
+			width: 90%;
+			float: none;
+			margin: 0 auto;
+		}
+	
+	
+}
+</style>
+
+<script>
+	component.exports = {
+		computed: {
+			prezzoCent: function(){
+				return this.get('prezzo').toFixed(2);
+			}
+		}
+	}
+</script>

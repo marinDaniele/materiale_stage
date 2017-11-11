@@ -1,0 +1,75 @@
+body{
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+#index-json{
+	width: 5em;
+}
+
+#button-box{
+	background-color: #7CC6F0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#button-box button{
+	margin: 1em 0;
+}
+
+#box{
+	width: 62em;
+	margin: 1em auto;
+}
+
+#editor, #button-box, #text-area{
+	width: 30em;
+	border: 1px solid black;
+}
+
+#text-area{
+	font-size: 12px;
+	height: 40em;
+	text-indent: 50px;
+	display: inline-block;
+}
+
+#editor{
+	padding: 2px;
+	height: 40em;
+	display: inline-block;
+	background-color: #EEF698;
+	position: absolute;
+	overflow-y: auto;
+}
+
+.json-label{
+	display: block;
+	padding-right: 2em;
+	padding-left: 1em;
+	overflow: auto;
+	font-weight: bold;
+}
+
+.json-data{
+	position: relative;
+	float: right;
+	width: 16em;
+
+}
+
+span.array-span{
+	padding: 0.5em 0 0.5em 1em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+	display: block;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.objDiv{
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+	border-left: 3px solid #B0BD08;
+}
+

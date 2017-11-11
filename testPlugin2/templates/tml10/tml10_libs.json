@@ -1,0 +1,5 @@
+{
+	"libs": [
+		"templates/tml10/lib/jquery.drawsvg.min.js"
+	]
+}

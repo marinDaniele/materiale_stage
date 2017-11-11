@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test plug-in</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="test_plugin.css">
+	<link rel="stylesheet" href="libs/jquery-ui-1.11.4//jquery-ui.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- script jQuery -->
+	<script src="libs/jquery-2.2.3.min.js"></script>
+	<script src="libs/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+	<!-- script Ractive.js -->
+	<script src='libs/ractive.min.js'></script>
+	<script src="libs/ractive-load.min.js"></script>
+	<script src="libs/ractive-events-tap.min.js"></script>
+	<!-- miei script -->
+	<script src="test_plugin.js"></script>
+	<!-- Plug-in -->
+	
+
+
+</head>
+<body onload="loadAllTemplate()">
+
+	<div id="button-box">
+		<button id="script-controll" onclick="scriptControll()">script controll</button>
+		<button id="ractive-obj" onclick="ractiveObjects()">ractive objects</button>
+		<label>url libreria: 
+			<input id="plugin-lib" type="text" name="library-url">
+			<button id="insert-library" onclick="addLibrary()">aggiungi libreria</button>
+		</label>
+	</div>
+
+	<!-- contenitore template -->
+	<div id="container">
+		<!-- ancora primo template -->
+		<div id="tml-anchor1" class="anchor ui-widget-content "></div>
+		<!-- ancora secondo template -->
+		<div id="tml-anchor2" class="anchor ui-widget-content "></div>
+		<!-- ancora terzo template -->
+		<div id="tml-anchor3" class="anchor ui-widget-content "></div>
+	</div>
+
+
+</body>
+</html>

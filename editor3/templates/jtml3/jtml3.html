@@ -1,0 +1,52 @@
+<div id="jtml3">
+	<button id="button-1">{{button_text1}}</button>
+	<button id="button-2">{{button_text2}}</button>
+	<button id="button-3">{{button_text3}}</button>
+</div>
+
+<style>
+	#jtml3{
+		position: relative;
+		width: 100%;
+		background-color: #A2F6A0;
+		text-align: center;
+	}
+
+	#button-1, #button-2, #button-3{
+		margin: 2em 1em;
+	}
+</style>
+
+<script>
+	component.exports = {
+		oncomplete: function() {
+				var self = this;
+				jQuery(document).ready(function () {
+
+	            jQuery(self.find('#button-1')).clickSpark();
+
+	            jQuery(self.find('#button-2')).clickSpark({
+	                particleImagePath: 'templates/jtml3/img/particle-2.png',
+	                particleCount: 35,
+	                particleSpeed: 10,
+	                particleSize: 15,
+	                particleRotationSpeed: 20,
+	                animationType: 'explosion',
+	                callback: ''
+	            });
+
+
+	            jQuery(self.find('#button-3')).clickSpark({
+	                particleImagePath: 'templates/jtml3/img/particle-3.png',
+	                particleCount: 55,
+	                particleSpeed: 10,
+	                particleSize: 24,
+	                particleRotationSpeed: 5,
+	                animationType: 'blowleft'
+	            });
+
+	        });
+
+		}
+	}
+</script>

@@ -1,0 +1,5 @@
+{
+	"pippo": [3, 2, 1, 0],
+	"pluto": ["pere", true, 10],
+	"topolino": ["banane", 33, false, 44]
+}

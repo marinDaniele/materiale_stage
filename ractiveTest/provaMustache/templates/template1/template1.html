@@ -1,0 +1,22 @@
+<div id="template1">
+	<h1>{{input1}}</h1>
+	<h2>sottotitolo</h2>
+	<ul>
+		<li>{{input2}}</li>
+		<li>{{input3}}</li>
+		<li>{{input4}}</li>
+	</ul>
+</div>
+
+<style type="text/css">
+	#template1{
+		background-color: blue;
+		color: yellow;
+	}
+</style>
+
+<script type="text/javascript">
+	$('#template1 h2').click(function(){
+		alert('premuto h2');
+	});
+</script>

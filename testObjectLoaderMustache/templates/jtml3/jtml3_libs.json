@@ -1,0 +1,8 @@
+{
+	"libs": [
+		"templates/jtml3/lib/clickspark.min.js"
+	],
+	"activators": [
+		"templates/jtml3/lib/jtml3Loader.js"
+	]
+}

@@ -1,0 +1,5 @@
+{
+	"libs": [
+		"templates/jtml1/lib/actuate-animate.min.js"
+	]
+}

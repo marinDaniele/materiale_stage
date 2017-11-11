@@ -1,0 +1,6 @@
+{
+	"libs": [
+		"templates/tml5/lib/jquery.jcarousel.min.js"
+		
+	]
+}

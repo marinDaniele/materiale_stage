@@ -1,0 +1,8 @@
+{
+	"libs": [
+		"templates/tml13/lib/clickspark.min.js"
+	],
+	"activators": [
+		"templates/tml13/lib/clicksparkLoader.js"
+	]
+}

@@ -1,0 +1,27 @@
+<div id="tml7">
+	<img id="img1" src="{{img1}}">
+	<img id="img2" src="{{img2}}">
+</div>
+
+<style>
+	#tml7{
+		position: relative;
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	#tml7 img{
+		max-width: 25em;
+		max-height: 12.5em;
+	}
+</style>
+
+<script>
+	component.exports = {
+		oncomplete: function() {
+			jQuery(this.find('#img1')).actuate('wobble');
+			jQuery(this.find('#img2')).actuate('pulse');
+		}
+	}
+</script>

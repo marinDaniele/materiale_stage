@@ -1,0 +1,9 @@
+{
+	"libs": [
+		"templates/tml12/lib/jquery.drawsvg.min.js"
+		
+	],
+	"activators": [
+		"templates/tml12/lib/drawsvgLoader.js"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"bgColor":"#DAFC50",
+	"textColor": "#000000",
+	"nome": "Francesca",
+	"cognome": "Rossi",
+	"img": "templates/tml2/img/image1.jpg",
+	"telefono": "041123123",
+	"mail": "francesca.rossi@email.com",
+	"via": "Via Giovanni Cittadella",
+	"numCivico": 7,
+	"provincia": "PD",
+	"facebook": "http://www.facebook.com",
+	"googleP": "http://www.plus.google.com",
+	"linkedin": "http://www.linkedin.com",
+	"twitter": "http://www.twitter.com"
+}

@@ -1,0 +1,9 @@
+{
+	"libs": [
+		"templates/jtml2/lib/jquery.drawsvg.min.js"
+		
+	],
+	"activators": [
+		"templates/jtml2/lib/jtml2Loader.js"
+	]
+}

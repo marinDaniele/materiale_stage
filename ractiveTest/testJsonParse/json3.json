@@ -1,0 +1,10 @@
+{
+	"colore":"#FC4A4A",
+	"stringa": "Francesca",
+	"url": "templates/tml2/img/image1.jpg",
+	"stringaNumerica": "041123123",
+	"numero": 45,
+	"booleano": true,
+	"array": ["pippo","pluto","paperino"],
+	"oggetto": { "nome": "oggetto", "valore": "objValore"}	
+}
